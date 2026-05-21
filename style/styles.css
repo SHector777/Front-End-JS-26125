@@ -3,3 +3,62 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.home {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8ebdd;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4b0012;
+    color: white;
+    padding: 1rem 2rem;
+}
+
+.nav {
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: baseline;
+    gap: 4rem;
+    list-style: none;
+    padding: 1rem;
+}
+
+.nav-list li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.nav-list li a:hover {
+    color: #d4af37;
+}
+
+.logo {
+    width: 6.5rem;
+    height: auto;
+}
+
+.main {
+    flex: 1;
+    padding: 2rem;
+}
+
+.footer {
+    background-color: #4b0012;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
