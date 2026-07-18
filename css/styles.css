@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body */
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8ebdd;
+}
+
+/* header */
+
+.header{
+    background:#4b0012;
+    color:white;
+}
+
+.contenedor-header{
+    max-width:1200px;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:1rem 2rem;
+}
+
+.logo{
+    width:90px;
+    height:auto;
+}
+
+/* navegacion */
+
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+    padding: 0;
+}
+
+.nav-list li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.2s;
+}
+
+.nav-list li a:hover{
+    color: #d4af37;
+}
+
+/*Pagina actual*/
+.nav-list li a.activo{
+    color: #d4af37;
+}
+
+.nav-list li a.activo:hover{
+    color: white;
+    font-weight: bold;
+}
+
+.carrito-link {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.icono-carrito {
+    width: 24px;
+    height: 24px;
+}
+
+#contador-carrito {
+    font-weight: bold;
+}
+
+/* main */
+
+.main {
+    flex: 1;
+    padding: 2rem;
+}
+
+/* footer */
+
+.footer {
+    background-color: #4b0012;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
