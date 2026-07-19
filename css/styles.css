@@ -258,6 +258,66 @@ body {
     font-size: 1.1rem;
 }
 
+/* Sección Reseñas */
+
+.resenas{
+    padding: 5rem 0;
+    background: var(--color-fondo);
+}
+
+.resenas h2{
+    text-align: center;
+    color: var(--color-principal);
+    margin-bottom: 3rem;
+}
+
+.resenas-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.resena-card{
+    padding: 2rem;
+    background: var(--color-blanco);
+    border-radius: var(--radio);
+    box-shadow: var(--sombra);
+    text-align: center;
+}
+
+.estrellas{
+    margin-bottom: 1rem;
+    color: var(--color-secundario);
+    font-size: 1.2rem;
+}
+
+.resena-card p{
+    margin-bottom: 1.5rem;
+    line-height: 1.7;
+    color: var(--color-texto);
+    font-style: italic;
+}
+
+.resena-card h3{
+    color: var(--color-principal);
+    font-size: 1rem;
+}
+
+.foto-cliente{
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 1rem;
+    display: block;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid var(--color-secundario);
+    transition: var(--transicion);
+}
+
+.resena-card:hover .foto-cliente{
+    transform: scale(1.05);
+}
+
 /* otras paginas */
 
 .productos{
