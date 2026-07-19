@@ -87,7 +87,94 @@ body {
 
 .main {
     flex: 1;
-    padding: 2rem;
+}
+
+/* principal */
+.hero{
+    position: relative;
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(90deg,rgba(0,0,0,.70) 0%, rgba(0,0,0,.45) 40%,rgba(0,0,0,.20) 100%), url("../assets/img/hero.webp");
+    background-size: cover;
+    background-position: right center;
+    color:white;
+}
+
+.hero-contenido{
+    max-width: 600px;
+    margin-left: 8%;
+}
+
+.hero h1{
+    font-size: 3.5rem;
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+}
+
+.hero p{
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+}
+
+.btn-principal{
+    display: inline-block;
+    background: #d4af37;
+    color: #4b0012;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.btn-principal:hover{
+    background: white;
+    transform: translateY(-2px);
+}
+
+.hero button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background: rgba(255,255,255, .25);
+    backdrop-filter: blur(3px);
+    cursor: pointer;
+    font-size: 1.4rem;
+    transition: .3s;
+}
+
+.hero button:hover{
+    background: #d4af37;
+    color: #4b0012;
+}
+
+.hero-anterior{
+    left: 20px;
+}
+
+.hero-siguiente{
+    right: 20px;
+}
+
+
+/* otras paginas */
+
+.productos{
+    padding: 4rem 2rem;
+}
+
+.ofertas{
+    padding: 4rem 2rem;
+}
+
+.reseñas{
+    padding: 4rem 2rem;
 }
 
 /* footer */
