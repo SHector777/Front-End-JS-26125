@@ -337,7 +337,112 @@ body {
 .footer {
     background-color: var(--color-principal);
     color: var(--color-blanco);
+    padding: 4rem 0 1.5rem;
+}
+
+.footer-logo{
+    width: 90px;
+    margin-bottom: 1rem;
+}
+
+.footer-grid{
+    display: grid;
+    grid-template-columns: 1.3fr 1fr 1.3fr 1fr;
+    gap: 9rem;
+}
+
+.footer-columna{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-columna h3{
+    color: var(--color-secundario);
+    margin-bottom: 1rem;
+}
+
+.footer-columna ul{
+    list-style: none;
+    padding: 0;
+}
+
+.footer-columna li{
+    margin-bottom: .6rem;
+}
+
+.footer-marca{
     text-align: center;
-    padding: 1rem 0;
+    align-items: center;
+}
+
+.footer a{
+    color: var(--color-blanco);
+    text-decoration: none;
+    transition: var(--transicion);
+}
+
+.footer a:hover{
+    color: var(--color-secundario);
+}
+
+.footer p{
+    line-height: 1.7;
+}
+
+.footer-copy{
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(255,255,255,.15);
+    text-align: center;
+    font-size: .9rem;
+}
+
+/* Esto se planteo para enlaces, por el alcance del proyecto, se dejo para mas adelante */
+/* .redes-sociales{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.redes-sociales a{
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+    color: var(--color-blanco);
+    text-decoration: none;
+    transition: var(--transicion);
+}
+
+.redes-sociales a:hover{
+    color: var(--color-secundario);
+}
+
+.redes-sociales i{
+    font-size: 1.4rem;
+    width: 24px;
+} */
+
+/* Para el footer sin enlaces, en los iconos de las redes sociales */
+.redes-sociales{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.redes-sociales div{
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+    color: var(--color-blanco);
+    transition: var(--transicion);
+}
+
+.redes-sociales div:hover{
+    color: var(--color-secundario);
+}
+
+.redes-sociales i{
+    width: 24px;
+    font-size: 1.4rem;
 }
 
