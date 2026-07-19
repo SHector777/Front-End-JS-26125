@@ -109,7 +109,7 @@ body {
     flex: 1;
 }
 
-/* principal */
+/* principal hero */
 .hero{
     position: relative;
     min-height: 85vh;
@@ -195,6 +195,28 @@ body {
     right: 20px;
 }
 
+/* seccion nuevos ingresos */
+
+.nuevos-ingresos{
+    padding: 4rem 0;
+}
+
+.nuevos-ingresos h2{
+    text-align: justify;
+    margin-bottom: 2rem;
+}
+
+.productos-scroll{
+    display: flex;
+    gap: 1.5rem;
+    overflow-x: auto;
+    padding-bottom: 1rem;
+}
+
+.producto-card{
+    min-width: 250px;
+    flex-shrink: 0;
+}
 
 /* otras paginas */
 
